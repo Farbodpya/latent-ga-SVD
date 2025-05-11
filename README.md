@@ -42,3 +42,6 @@ To get started with the Latent-Space Genetic Algorithm with SVD Projection, foll
    ```bash
    git clone https://github.com/Farbodpya/latent-ga-SVD.git
    cd latent-ga-SVD
+
+   # Run the optimizer
+    python main.py
