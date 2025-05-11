@@ -16,7 +16,7 @@ timings = {}
 print("\nRunning Latent-Space GA (SVD) Once Per Benchmark:\n")
 
 for name, fn in benchmarks.items():
-    print(f"\nRunning: {name}")
+    print(f"Running: {name}")
     start = time.time()
     costs = dynamic_ga_latent(fn)
     end = time.time()
@@ -26,10 +26,9 @@ for name, fn in benchmarks.items():
     timings[name] = end - start
 
     print(f"  → Final Cost: {costs[-1]:.6e}")
-    print(f"  → All Costs: {np.array2string(np.array(costs), precision=4, separator=', ')}")
     print(f"  → Time Taken: {end - start:.2f} seconds")
 
-# Plot the results
+# Plot the convergence curve
 plot_average_costs(all_results)
 
 print("\nSummary:")
