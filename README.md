@@ -2,6 +2,8 @@
 
 This repository provides an implementation of a **Genetic Algorithm (GA)** that operates in a **low-dimensional latent space**, which is derived from a high-dimensional input space using **Singular Value Decomposition (SVD)**. The framework optimizes various benchmark functions efficiently by leveraging dimensionality reduction, improving search performance and convergence in high-dimensional optimization problems.
 
+Zenodo DOI:(https://doi.org/10.5281/zenodo.15342205)
+
 ---
 
 ## 🚀 Features
